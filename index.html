@@ -2,23 +2,27 @@
 <html>
 <body>
 
-  <h2>What Can JavaScript Do?</h2>
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button>
+
+</body>
+</html> 
+
+<h2>What Can JavaScript Do?</h2>
 
 <p>JavaScript can change HTML attribute values.</p>
-<li>Changes an image</li>
-<li>Displays html content<\li>
-<li>Hides html content<\li>
-<li>Changes the CSS<\li>
-
 
 <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-<button onclick="document.getElementById('myImage').src='fullcup.jpeg'">Turn on the light</button>
-<button onclick="document.getElementById('myImage').src='emptycup.jpeg'">Turn off the light</button>
- 
-  document.getElementById("demo").style.fontSize = "55px";
-<img id="myImage" src="emptycup.jpeg" style="width:200px">
-<img id="myImage" src="fullcup.jpeg" style="width:200px
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
 </body>
 </html>
+
